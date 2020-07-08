@@ -1,5 +1,5 @@
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   
 }
@@ -9,13 +9,25 @@ body {
   background-attachment: fixed;
 }
 
-.container {
+/* .container {
 position:absolute;
-top:50%;
+top:20%;
 left:50%;
 margin-left:-50px;
 margin-top:-50px;
 color: white; /* remove when not needed */
+/* } */ 
+
+.container {
+  display: table-column;
+  position: absolute;
+  left: 43%;
+  top: 25%;
+  color: white;
+}
+
+.info {
+  text-align: center;
 }
 
 .alliance {
@@ -40,5 +52,15 @@ color: white; /* remove when not needed */
   border: solid gold 2px;
 }
 
+button {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #ecb965;
+  width: auto;
+  padding: 2px 25px 2px 25px;
+  background-color: #6e0407;
+  border-radius: 4px;
+  border-color: #7b7375;
+}
 /* Create a horde and alliance logo on the left and right side of 
 the character with a glowing box to show which team they are on */
