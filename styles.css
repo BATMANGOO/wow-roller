@@ -1,0 +1,42 @@
+* {
+  margin: 0 auto;
+  padding: 0
+}
+body {
+  background-image: linear-gradient(to bottom right, #570708 50%, #1d3383 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+position:absolute;
+top:50%;
+left:50%;
+margin-left:-50px;
+margin-top:-50px;
+}
+
+.alliance {
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  padding: 4px;
+}
+
+.alliance.border {
+  border: solid gold 2px;
+}
+
+.horde {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  padding: 4px;
+}
+
+.horde.border {
+  border: solid gold 2px;
+}
+
+/* Create a horde and alliance logo on the left and right side of 
+the character with a glowing box to show which team they are on */

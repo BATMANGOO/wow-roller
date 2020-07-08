@@ -5,6 +5,15 @@ const classEl = document.querySelector('.class');
 const allegianceEl = document.querySelector('.allegiance');
 const button = document.querySelector('button');
 
+const randomRace = Math.floor(Math.random() * races.length);
+const randomClass = Math.floor(Math.random() * races[randomRace]['class'].length);
+
+(function onStartUp() {
+    allegianceEl.innerText = races[randomRace]['following'];
+    raceEl.innerText = races[randomRace]['name'];
+    classEl.innerText = races[randomRace]['class'][randomClass];
+})()
+
 function setRace() {
     let randomRace = Math.floor(Math.random() * races.length);
     let randomClass = Math.floor(Math.random() * races[randomRace]['class'].length);
