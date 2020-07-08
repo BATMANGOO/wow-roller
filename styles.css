@@ -4,7 +4,7 @@
   
 }
 body {
-  background-image: linear-gradient(to bottom right, #570708 , black, #1d3383);
+  background-image: linear-gradient(to bottom right, #570708, #570708 , black, #1d3383, #1d3383);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
