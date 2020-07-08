@@ -3,7 +3,7 @@
   padding: 0
 }
 body {
-  background-image: linear-gradient(to bottom right, #570708 50%, #1d3383 50%);
+  background-image: linear-gradient(to bottom right, #570708 , black, #1d3383);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
