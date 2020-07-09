@@ -17,6 +17,7 @@ const randomClass = Math.floor(Math.random() * races[randomRace]['class'].length
 
     if(races[randomRace].following === 'Horde') {
         hordeLogo.classList.add('border');
+        
         allianceLogo.classList.remove('border');
     } else if(races[randomRace].following === 'Alliance') {
         allianceLogo.classList.add('border');
@@ -25,8 +26,6 @@ const randomClass = Math.floor(Math.random() * races[randomRace]['class'].length
 })()
 
 function setRace() {
-    let hordeBorder = false;
-    let allianceBorder = false;
     let randomRace = Math.floor(Math.random() * races.length);
     let randomClass = Math.floor(Math.random() * races[randomRace]['class'].length);
 
