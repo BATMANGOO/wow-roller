@@ -1,4 +1,3 @@
-const token = 'USEkIkX1v6RnMKYf4ztbWcQrjkDKAcBOpH';
 const allianceLogo = document.querySelector('.alliance');
 const hordeLogo = document.querySelector('.horde')
 const raceEl = document.querySelector('.race');
